@@ -52,6 +52,10 @@ def main():
     t.start()
     print iterative_fib(25)
     t.end()
+    t.configure('minutes')
+    t.lastTime()
+    t.configure('hours')
+    t.lastTime()
 
 
 

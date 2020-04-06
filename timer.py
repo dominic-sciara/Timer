@@ -32,5 +32,8 @@ class Timer(object):
             print self._lastTime / 60, 'minutes'
         elif self._config == 'hours':
             print self._lastTime / 3600, 'hours'
+    
+    def lastTime(self):
+        self.displayTime(self._lastTime)
         
 
